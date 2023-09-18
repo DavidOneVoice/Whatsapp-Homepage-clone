@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-main{
+
+main {
     height: auto;
 }
-#navbar{
+
+#navbar {
     background-color: #103928;
     padding-left: 2em;
     padding-right: 2em;
@@ -13,21 +15,24 @@ main{
     padding-top: 1em;
 }
 
-#prenav{
+#prenav {
     width: 100%;
     height: auto;
     padding-left: 2em;
 }
-#metalogo{
+
+#metalogo {
     width: 5.5em;
     height: 3.5em;
 }
-header{
+
+header {
     width: 100%;
     height: auto;
     background-color: #103928;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,11 +42,12 @@ nav{
     padding-top: 4em;
 }
 
-#whatsapplogo{
+#whatsapplogo {
     width: 16%;
     margin-top: -2em;
 }
-#menu{
+
+#menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -49,7 +55,8 @@ nav{
     margin-right: -15em;
     margin-left: 0em
 }
-#menu ul{
+
+#menu ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,17 +66,20 @@ nav{
     margin-top: -1em;
     margin-left: -7em;
 }
-#lastnavdiv{
+
+#lastnavdiv {
     width: auto;
     margin-top: -1em;
 }
-#menu a{
+
+#menu a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#menu button{
+
+#menu button {
     background-color: #43dc66;
     font-size: 1em;
     height: 3em;
@@ -82,13 +92,16 @@ nav{
     transition: all;
     transition-duration: 0.4s;
 }
-#menu button:hover{
+
+#menu button:hover {
     opacity: 0.6;
 }
-#togglebtn{
+
+#togglebtn {
     display: none;
 }
-#fontawesome{
+
+#fontawesome {
     width: 12%;
     color: #43dc66;
     background-color: #103928;
@@ -99,21 +112,41 @@ nav{
     transition-duration: 0.4s;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#fontawesome:hover{
+
+#fontawesome:hover {
     opacity: 0.6;
 }
-#downbtn{
+
+#downbtn {
     color: white;
     margin-left: 0.4em;
     font-size: 0.8em;
     display: inline;
 }
-#globebtn{
-   margin-right: 0.2em;
-   font-size: 1em;
-   display: inline;
+
+#advert {
+    background-color: #d9eafb;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }
-#productchoice{
+
+#advert p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+#advert a {
+    opacity: 0.8;
+}
+
+#globebtn {
+    margin-right: 0.2em;
+    font-size: 1em;
+    display: inline;
+}
+
+#productchoice {
     width: 100%;
     background-color: #103928;
     height: auto;
@@ -122,28 +155,33 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 3em;
+    margin-top: -1em;
 }
-#biztransform{
+
+#biztransform {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     padding: 5em;
 }
-#biztransform h1{
+
+#biztransform h1 {
     color: #43dc66;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.7em; 
+    font-size: 3.7em;
 }
-#biztransform p{
+
+#biztransform p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em; 
+    font-size: 1.2em;
     padding-right: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-#biztransform button{
+
+#biztransform button {
     background-color: #43dc66;
     font-size: 1em;
     height: 4em;
@@ -154,21 +192,26 @@ nav{
     transition: all;
     transition-duration: 0.4s;
 }
-#biztransform button:hover{
+
+#biztransform button:hover {
     opacity: 0.6;
 }
-.transformbiz{
+
+.transformbiz {
     width: 50%;
 }
-#productchoice2{
+
+#productchoice2 {
     padding: 5em;
 }
-#productchoice2 img{
+
+#productchoice2 img {
     width: 30em;
     height: 30em;
     align-self: center;
 }
-#lg2sm{
+
+#lg2sm {
     width: 100%;
     background-color: #fff;
     height: auto;
@@ -178,12 +221,14 @@ nav{
     justify-content: center;
     margin-top: 10em;
 }
-#lg2sm h6{
+
+#lg2sm h6 {
     text-align: center;
     opacity: 0.8;
     width: 100%;
 }
-#lg2sm p{
+
+#lg2sm p {
     font-size: 3.3em;
     text-align: center;
     color: black;
@@ -191,11 +236,13 @@ nav{
     padding-left: 2em;
     padding-right: 2em;
 }
-#lg2sm span{
+
+#lg2sm span {
     text-decoration: underline;
     text-decoration-color: #43cd66;
 }
-#bizsupport{
+
+#bizsupport {
     width: 100%;
     background-color: #fff;
     height: auto;
@@ -206,7 +253,8 @@ nav{
     margin-top: 6em;
     margin-bottom: 10em;
 }
-.support{
+
+.support {
     width: 40%;
     flex-direction: column;
     flex-wrap: wrap;
@@ -217,29 +265,26 @@ nav{
     border-radius: 10px;
     padding-top: 6em;
 }
-.fa-solid{
+
+.fa-solid {
     color: #43cd66;
     font-size: 3em;
     margin-bottom: 1em;
 }
-.support h3{
+
+.support h3 {
     margin-bottom: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
 }
-.support p{
+
+.support p {
     opacity: 0.9;
     font-size: 1.1em;
 }
-#arrow1, #arrow2, #arrow3{
-    font-size: 1.2em;
-    transition: all;
-    transition-duration: 0.3s;
-}
-#arrow1:hover, #arrow2:hover, #arrow3:hover{
-    opacity: 0.8;
-}
-.arrowtext{
+
+
+.arrowtext {
     color: black;
     font-size: 0.9em;
     font-weight: 400;
@@ -248,7 +293,7 @@ nav{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#collapse{
+#collapse {
     width: 100%;
     height: 100vh;
     background-color: #f1e9de;
@@ -258,7 +303,7 @@ nav{
     justify-content: center;
 }
 
-.dropdown{
+.dropdown {
     width: 50%;
     height: 100%;
     display: flex;
@@ -266,18 +311,19 @@ nav{
     justify-content: center;
 }
 
-.dropdown img{
+.dropdown img {
     border-radius: 15px;
     width: 80%;
     height: 60%;
     margin-top: 7em;
     margin-left: 3em;
 }
-.dropdown:nth-of-type(2){
+
+.dropdown:nth-of-type(2) {
     margin-left: -5em;
 }
 
-.dropdown h1{
+.dropdown h1 {
     width: 100%;
     text-align: center;
     font-size: 3em;
@@ -285,38 +331,28 @@ nav{
     margin-top: 2em;
     margin-bottom: -1em;
 }
-#directionbtn{
-    float: right;
-    margin-bottom: -3em;
-}
-#rewindbtn, #forwardbtn{
-    color: #103928;
-    font-size: 1.7em;
-}
-#rewindbtn2, #forwardbtn2{
-    display: none;
-}
-#forwardbtn{
-    margin-left: 1em;
-    margin-right: 8em;
-}
-#accordionExample{
+
+
+
+#accordionExample {
     width: 85%;
     font-size: 1.2em;
     opacity: 0.8;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 1;
 }
-.accordion-body{
+
+.accordion-body {
     background-color: #f1e9de;
 }
-.accordion-button{
-    background-color: #f1e9de;   
+
+.accordion-button {
+    background-color: #f1e9de;
     font-size: 0.8em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#success-stories{
+#success-stories {
     width: 100%;
     width: 80vh;
     display: flex;
@@ -324,49 +360,65 @@ nav{
     flex-wrap: wrap;
     margin-top: 8em;
     margin-left: 8em;
-    margin-bottom: 10em;
+    margin-bottom: 4em;
 }
 
-#success-stories h4{
+#success-stories h4 {
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.8;
     font-weight: 700;
     font-size: 1.3em;
 }
 
-#success-stories h1{
+#success-stories h1 {
     font-size: 3em;
     width: 20em;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1em;
 }
 
-#carousal{
-    width: 100%;
-    height: 100vh;
-    margin-top: -5em;
-    margin-bottom: 7em;
-}
-.carousel-item{
-    margin-top: 3em;
-}
-.carousel-item h1{
-    font-size: 4em;
-}
-#carimg1, #carimg2, #carimg3, #carimg4{
-    width: 100%;
-    padding-left: 10em;
-    padding-right: 10em;
+#success-stories span {
+    font-size: 0.4em;
 }
 
-#learnmore{
+
+#carousal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#carousal div {
+    background-color: #d6fcdf;
+    margin-left: 3em;
+    padding: 3em;
+    border-radius: 25px;
+    margin-bottom: 3em;
+}
+
+#carousal img {
+    border-radius: 25px;
+    margin-top: 2em;
+    width: 40em;
+    height: 25em;
+}
+
+#carousal h1 {
+    font-size: 3em;
+}
+
+
+
+#learnmore {
     width: 100%;
-    height: 5em;    
+    height: 5em;
     display: flex;
     justify-content: center;
-    margin-top: 15em;
+    margin-top: 5em;
 }
-#learnmore div{
+
+#learnmore div {
     background-color: #103928;
     border-radius: 20px;
     width: 80%;
@@ -377,19 +429,19 @@ nav{
     height: 50vh;
 }
 
-#learnmore h1{
+#learnmore h1 {
     text-align: center;
     color: #43cd66;
     font-size: 3.5em;
 }
 
-#learnmore p{
+#learnmore p {
     color: white;
     text-align: center;
     font-size: 1.2em;
 }
 
-#learnmore button{
+#learnmore button {
     background-color: #43dc66;
     align-self: center;
     font-size: 1.2em;
@@ -402,13 +454,15 @@ nav{
     transition-duration: 0.4s;
 }
 
-#learnmore button:hover{
+#learnmore button:hover {
     opacity: 0.6;
 }
-main{
+
+main {
     margin-bottom: 20em;
 }
-footer{
+
+footer {
     width: 100%;
     height: 25vh;
     background-color: #43cd66;
@@ -418,11 +472,11 @@ footer{
     justify-content: space-evenly;
 }
 
-#footerlogo{
+#footerlogo {
     width: 16%;
 }
 
-footer ul{
+footer ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -432,23 +486,25 @@ footer ul{
     margin-top: 4em;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: black;
     transition: all;
     transition-duration: 0.4s;
 }
-footer a:hover{
+
+footer a:hover {
     opacity: 0.8;
 }
-footer span{
+
+footer span {
     margin-top: 4em;
 }
 
 /* Time to make the site responsive */
 
 @media (max-width: 1200px) {
-    #togglebtn{
+    #togglebtn {
         display: block;
         font-size: 2em;
         color: white;
@@ -456,116 +512,154 @@ footer span{
         margin-left: 0.5em;
         float: right;
     }
-    #menu{
+
+    #advert {
+        margin-top: 3em;
+    }
+
+    #menu {
         display: none;
     }
-    #fontawesome{
+
+    #fontawesome {
         margin-top: -3em;
     }
-    #whatsapplogo{
+
+    #whatsapplogo {
         width: 20%;
         margin-top: -4em;
     }
-    main{
+
+    main {
         margin-top: -5rem;
     }
-    #productchoice img{
+
+    #productchoice img {
         width: 96%;
         height: 90%;
     }
-    #biztransform h1{
+
+    #biztransform h1 {
         font-size: 3em;
     }
-    #biztransform p{
+
+    #biztransform p {
         margin-top: 0em;
         margin-bottom: 0em;
         font-size: 1em;
     }
-    #lg2sm{
+
+    #lg2sm {
         margin-top: 5em;
     }
-    #lg2sm p{
+
+    #lg2sm p {
         font-size: 3em;
     }
-    .support{
+
+    .support {
         padding-top: 3em;
     }
-    .dropdown img{
+
+    #arrow1,
+    #arrow2 {
+        font-size: 1.5em;
+    }
+
+    .dropdown img {
         margin-right: 5em;
     }
-    #collapse{
+
+    #collapse {
         height: 120vh;
     }
-    .dropdown h1{
+
+    .dropdown h1 {
         font-size: 3.5em;
         text-align: left;
         width: 70%;
         margin-bottom: 0em;
         margin-top: 0.5em;
     }
-    #success-stories h1{
+
+    #success-stories h1 {
         width: 150%;
     }
-    #learnmore{
+
+    #learnmore {
         margin-bottom: 25em;
         margin-top: 0em;
     }
-    #learnmore div{
+
+    #learnmore div {
         height: 70vh;
     }
-    #learnmore button{
+
+    #learnmore button {
         height: 3.5em;
         border: #43dc66;
         width: 20%;
     }
 }
 
-    /* I add a styling instruction for screen sizes below 1000px*/
+/* I add a styling instruction for screen sizes below 1000px*/
 
 @media (max-width:1000px) {
-    #productchoice{
+    #productchoice {
         flex-direction: column;
         align-content: space-between;
     }
-    .transformbiz{
+
+    .transformbiz {
         width: 100%;
     }
-    #productchoice2 img{
+
+    #productchoice2 img {
         height: 35em;
     }
-    #biztransform p{
+
+    #biztransform p {
         margin-top: 2em;
         margin-bottom: 1.5em;
         font-size: 1.2em;
     }
-    #lg2sm p{
+
+    #lg2sm p {
         font-size: 2.5em;
     }
-    #bizsupport{
+
+    #bizsupport {
         flex-direction: column;
         align-content: center;
     }
-    .support{
+
+    .support {
         width: 90%;
         margin-bottom: 2em;
     }
-    #collapse{
+
+    #collapse {
         flex-direction: column;
         height: auto;
         padding-bottom: 3em;
         margin-top: -6em;
     }
-    #dropdown{
+
+    #dropdown {
         width: 100%;
     }
-    #dropdown img{
+
+    #dropdown img {
         width: 90%;
     }
-    #dropdown2{
+
+    #dropdown2 {
         width: 100%;
         margin-top: 3em;
         padding-left: 3em;
-    }#dropdown2 h1{
+    }
+
+    #dropdown2 h1 {
         width: 100%;
         margin-left: 1.5em;
         margin-bottom: 0.5em;
@@ -573,68 +667,64 @@ footer span{
         font-weight: 400;
         text-align: left;
     }
-    #accordionExample{
+
+    #accordionExample {
         width: 98%;
         margin-left: 3em;
     }
 
-    #success-stories h1{
+    #success-stories h1 {
         width: 100%;
         margin-left: -2em;
         font-size: 2.3em;
     }
-    #success-stories h4{
+
+    #success-stories h4 {
         margin-left: -3.5em;
     }
-    #arrow3{
-        margin-left: -3.7em;
+
+
+    #success-stories {
+        margin-bottom: 1em;
+        margin-bottom: 4em;
+        width: 80%;
     }
-    #rewindbtn, #forwardbtn{
-        display: none;
-    }
-    #rewindbtn2, #forwardbtn2{
-        color: #103928;
-        font-size: 1.7em;
-        display: inline;
-    }
-    #forwardbtn2{
-        margin-left: 1em;
-        margin-right: 2em;
-    }
-    #rewindbtn2{
-        margin-left: 15em;
-    }
-    #success-stories{
-        margin-bottom: 2em;
-        width: 90%;
-    }
-    #success-stories h1{
+
+    #success-stories h1 {
         width: 100%;
     }
-    #carousal{
-        width: 100%;
-        margin-bottom: -20em;
+
+    #success-stories span {
+        font-size: 0.5em;
+        margin-left: -8em;
+
     }
-    #whatsapplogo{
-        width:30%;
+
+    #whatsapplogo {
+        width: 30%;
         margin-top: -4em;
     }
-    #learnmore{
+
+    #learnmore {
         margin-top: 15em;
     }
-    #learnmore div{
+
+    #learnmore div {
         width: 90%;
         padding: 3em;
     }
-    #learnmore h1{
+
+    #learnmore h1 {
         font-size: 2.5em;
     }
-    #learnmore button{
+
+    #learnmore button {
         height: 3.5em;
         width: 30%;
         opacity: 0.7;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -643,23 +733,27 @@ footer span{
         padding-top: 3em;
         padding-bottom: 3em;
     }
-    footer ul{
+
+    footer ul {
         flex-wrap: wrap;
         flex-direction: column;
         align-content: space-evenly;
         height: auto;
         margin-left: -30em;
-        
+
     }
-    footer li{
+
+    footer li {
         margin-bottom: 1em;
         font-size: 1.2em;
     }
-    #footerlogo{
+
+    #footerlogo {
         margin-left: -21em;
         width: 25%;
     }
-    footer span{
+
+    footer span {
         margin-left: -17em;
         font-size: 1.2em;
     }
@@ -668,90 +762,139 @@ footer span{
 /* I add another styling instruction for screen sizes below 900px*/
 
 @media (max-width: 900px) {
-    #learnmore{
-        margin-top: 20em;
+    #carousal img {
+        width: 500px;
+        height: 300px;
+    }
+
+    #learnmore {
+        margin-top: 5em;
     }
 }
+
 @media (max-width: 800px) {
-    #learnmore{
+    #learnmore {
         margin-top: 15em;
     }
+
 }
+
 @media (max-width: 750px) {
-    #success-stories h1{
+    #success-stories h1 {
         width: 100%;
     }
-    #learnmore{
+
+    #learnmore {
         margin-top: 1em;
     }
-    #success-stories span{
-       width: 100%;
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-    }
-    #carouselExampleDark img{
+
+    #success-stories span {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
-    #carousal{
-        margin-top: 3em;
-    }
-    footer{
+
+    footer {
         flex-direction: column;
         align-items: center;
     }
-    footer ul{
+
+    footer ul {
         margin-left: -20em;
     }
-    
+
+}
+
+@media (max-width: 700px) {
+    #carousal img {
+        width: 400px;
+    }
+
+    #carousal h1 {
+        font-size: 1.8em;
+    }
+
 }
 
 /* I add another styling instruction for screen sizes below 650px*/
 
 @media (max-width: 650px) {
-    #learnmore{
+    #advert {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #learnmore {
         margin-top: 8em;
     }
-    #productchoice{
-        margin-top: -9em;
+
+    #productchoice {
+        margin-top: -1em;
+        padding-top: 0em;
     }
-    #productchoice2{
+
+    #productchoice h1 {
+        margin-top: -1em;
+    }
+
+    #productchoice2 {
         margin-top: -5em;
     }
-    #productchoice img{
+
+    #productchoice img {
         height: 30em;
         width: 100%;
     }
-    #lg2sm{
+
+    #lg2sm {
         margin-top: 3em;
     }
-    #bizsupport{
+
+    #bizsupport {
         margin-top: 2em;
     }
-    #collapse{
+
+    #collapse {
         margin-top: -8em;
     }
-    #success-stories{
-        margin-top: 2em;
+
+    #success-stories {
+        margin-top: 6em;
+        width: 70%;
     }
-    #success-stories h1{
+
+    #success-stories h1 {
         font-size: 2em;
         width: 90%;
+        margin-left: -2.5em;
+        margin-top: 1em;
     }
-    #learnmore{
+
+    #success-stories span {
+        margin-left: -10em;
+    }
+
+
+
+    #learnmore {
         margin-top: 1em;
         margin-bottom: 0em;
     }
-    #learnmore div{
+
+    #learnmore div {
         width: 100%;
     }
-    #learnmore button{
+
+    #learnmore button {
         width: 60%;
     }
-    footer span{
+
+    footer span {
         margin-left: -12em;
     }
-    footer{
+
+    footer {
         margin-top: 27em;
     }
 }
@@ -759,152 +902,242 @@ footer span{
 /* I add a styling instruction for screen sizes below 560px*/
 
 @media (max-width: 560px) {
-    #rewindbtn2, #forwardbtn2{
-        margin: 0em;
-        padding: 0em;
-    }
-    #forwardbtn2{
-        margin-left: -3em;
-    }
-    #rewindbtn2{
-        margin-left: 6em;
-    }
-    #success-stories{
+
+    #success-stories {
         margin-left: 0em;
-        padding-left: 6em;
+        padding-left: 8em;
         margin-bottom: 5em;
     }
-    #success-stories h4{
-        width: 70%;
-        padding-left: 0.5em;
-    }
-    #success-stories h1{
+
+    #success-stories h4 {
         width: 100%;
     }
-    footer{
+
+    #success-stories h1 {
+        width: 12em;
+    }
+
+    #success-stories span {
+        width: 35em;
+    }
+
+
+    #carousal {
+        flex-direction: column;
+        padding-right: 3em;
+    }
+
+    #carousal div {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+        padding: 1em 0em 1em 1em;
+        width: 100%;
+    }
+
+    #carousal img {
+        margin-left: 2em;
+    }
+
+    #learnmore {
+        margin-top: 5em;
+    }
+
+    footer {
         padding-left: 5em;
     }
-    #footerlogo{
+
+    #footerlogo {
         width: 10em;
     }
-    footer ul{
+
+    footer ul {
         width: 90%;
     }
-    footer{
+
+    footer {
         margin-top: 25em;
     }
-    #lg2sm p{
+
+    #lg2sm p {
         width: 100%;
         font-size: 2em;
     }
-    #productchoice2 img{
+
+    #productchoice2 img {
         height: 20em;
     }
-    #learnmore{
-        margin-top: -25em;
+
+
+}
+
+@media (max-width: 500px) {
+    #carousal {
+        padding-left: 0em;
+        padding-right: 0em;
     }
+
+    #carousal img {
+        margin-left: 0em;
+    }
+
 }
 
 /* I add a styling instruction for screen sizes below 450px*/
 
 @media (max-width: 450px) {
-    #whatsapplogo{
+    #whatsapplogo {
         width: 9em;
     }
-    #success-stories{
+
+    #advert {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+
+    #success-stories {
         padding-left: 6em;
         width: 100%;
     }
-    #forwardbtn2{
-        margin-left: -3em;
-        font-size: 1.5em;
+
+    #carousal img {
+        width: 23em;
     }
-    #rewindbtn2{
-        margin-left: 3em;
-        font-size: 1.5em;
-    }
-    #biztransform button{
+
+    #biztransform button {
         margin-top: -3em;
         margin-left: -3em;
     }
-    footer{
+
+    footer {
         padding-left: 12em;
     }
-    
-    #biztransform h1{
+
+    #biztransform h1 {
         margin-left: -1em;
     }
-    #biztransform p{
+
+    #biztransform p {
         margin-left: -2em;
         margin-bottom: 5em;
+    }
+}
+
+@media (max-width: 400px) {
+    #productchoice2 img {
+        width: 18em;
+        margin-left: -2em;
+    }
+
+    #success-stories h1 {
+        width: 90%;
+    }
+
+    #success-stories {
+        padding-left: 8em;
+    }
+
+    #carousal img {
+        width: 20em;
+        height: 15em;
+    }
+
+    footer ul {
+        width: 10em;
     }
 }
 
 /* I add a styling instruction for extremely small screen sizes below 350px*/
 
 @media (max-width: 350px) {
-    #learnmore div{
+
+    #learnmore div {
         height: 25em;
     }
-    #learnmore button{
+
+    #learnmore button {
         width: 90%;
     }
-    #learnmore{
+
+    #learnmore {
         height: 20em;
     }
-    
-    footer{
+
+    footer {
         margin-top: -14em;
         padding-left: 15em;
     }
-    footer ul{
+
+    footer ul {
         margin-left: -25em;
         width: 100%;
     }
-    #success-stories h4{
+
+    #lg2sm h6 {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #success-stories h4 {
         margin-bottom: 2em;
     }
-    #success-stories h1{
+
+    #success-stories h1 {
         margin-bottom: 2em;
         width: 100%;
     }
-    #rewindbtn2{
-        margin-right: 1em;
+
+    #success-stories span {
+        width: 20em;
     }
-    #dropdown img{
+
+    #carousal img {
+        width: 14em;
+    }
+
+    #dropdown img {
         width: 100%;
         margin: 0em;
     }
-    #productchoice2{
+
+    #productchoice2 {
         width: 100%;
         margin: 0em;
     }
-    #productchoice img{
+
+    #productchoice img {
         width: 17em;
         margin: 0em;
         margin-left: -4em;
     }
-    #whatsapplogo{
+
+    #whatsapplogo {
         margin-left: -0.8em;
         margin-top: -3em;
     }
-    #lastnavdiv{
+
+    #lastnavdiv {
         font-size: 0.8em;
         margin-top: -1em;
     }
-    #biztranform{
+
+    #biztranform {
         margin-left: -20em;
     }
-    #biztransform button{
+
+    #biztransform button {
         margin-top: -7em;
         padding: 0.5em 2em 0.5em 2em;
         margin-left: -3em;
         margin-bottom: -7em;
     }
-    header{
+
+    header {
         flex-direction: column;
     }
-    #whatsapplogo{
+
+    #whatsapplogo {
         margin-bottom: 2em;
     }
 }
@@ -912,24 +1145,108 @@ footer span{
 /* I added extra styling instructions for extremely small screen sizes below 300px*/
 
 @media (max-width: 300px) {
-    #biztransform button{
+    #biztransform button {
         margin-top: -13em;
     }
-    #learnmore div{
+
+    #learnmore div {
         height: 30em;
     }
-    footer{
+
+    footer {
         margin-top: -8em;
     }
-    #productchoice img{
+
+    #productchoice img {
         width: 15.5em;
         margin-left: -5em;
     }
-    #productchoice button{
+
+    #productchoice button {
         padding-left: 0em;
         padding-right: 0em;
         margin-left: -5em;
     }
+
+    #arrow1,
+    #arrow2 {
+        font-size: 1em;
+    }
+
+    #carousal img {
+        width: 13em;
+    }
+}
+
+@media (max-width: 250px) {
+
+    #biztransform h1 {
+        width: 2em;
+        font-size: 2em;
+        margin-left: -1.8em;
+    }
+
+    #biztransform p {
+        margin-left: -3em;
+        width: 10em;
+        margin-bottom: 13em;
+    }
+
+    #biztransform button {
+        width: 10em;
+    }
+
+    #productchoice2 img {
+        width: 12em;
+    }
+
+    #lg2sm p {
+        margin-left: 0.5em;
+        font-size: 1.5em;
+        width: 7.5em;
+        padding: 0em;
+    }
+
+    #arrow3 {
+        font-size: 2.5em;
+        width: 6em;
+    }
+
+    .support h3 {
+        font-size: 1.5em;
+    }
+
+    #learnmore div {
+        height: 40em;
+    }
+
+    .carouseldiv {
+        width: 10em;
+    }
+
+    #carousal h1 {
+        font-size: 1.3em;
+        width: 80%;
+    }
+
+    #success-stories h1 {
+        font-size: 1.2em;
+        margin-left: -4em;
+    }
+
+    footer {
+        margin-top: 22em;
+    }
+
+    footer span {
+        font-size: 1em;
+        margin-left: -17em;
+    }
+
+    #footerlogo {
+        margin-left: -19em;
+    }
+
 }
 
 /* Finally, it's responsive!!!*/
