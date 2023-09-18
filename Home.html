@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="" href="./IMAGES/whatsappicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Business Whatsapp Clone">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1599382103240-5f2a57137d28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdoYXRzYXBwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="Make Your Calls and send messages at no cost">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site name" content="Business Whatsapp Clone">
+  <title>Whatsapp Business | Transform Your Business</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./STYLES/styles.css">
+</head>
+
+<body>
+
+  <!-- First create a div with the meta logo-->
+
+  <div id="prenav">
+    <img src="./IMAGES/meta_logo-removebg-preview.png" id="metalogo">
+  </div>
+
+  <!-- Next, i create the header-->
+
+  <header>
+    <nav>
+
+      <!-- Inside the header, i add the whatsapp logo-->
+
+      <img id="whatsapplogo" src="./IMAGES/brandlogo.svg">
+
+      <!-- Then i create a div containing a UL (all nav links are nested inside) and a submit button-->
+
+      <div id="menu">
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Partner</a></li>
+        </ul>
+        <button type="submit">Get Started</button>
+      </div>
+
+      <!-- I add the 3rd child of the header/nav element which is a div containing a button and a toggle button which is only visible on smaller divices-->
+
+      <div id="lastnavdiv">
+        <button id="fontawesome"><i id="globebtn" class="fa-solid fa-globe"></i>EN<i id="downbtn"
+            class="fa-solid fa-chevron-down"></i></button>
+        <i id="togglebtn" class="fa-solid fa-bars"></i>
+      </div>
+
+    </nav>
+  </header>
+  <!-- End of Header-->
+
+  <!-- I add elements to the main element of the page-->
+
+  <main>
+
+    <!-- I add the first section-->
+
+    <section id="productchoice">
+
+      <!-- Inside the section, i add two divs-->
+
+      <div class="transformbiz" id="biztransform">
+        <h1>Transform your business</h1>
+        <p>Engage audiences, accelerate sales and drive better customer support outcomes on the platform with more than
+          2 billion users around the world.</p>
+        <button type="submit">Choose your Product</button>
+      </div>
+
+      <!-- I add the second div-->
+
+      <div id="productchoice2" class="transformbiz">
+        <img alt="WhatsApp Messaging on Phone and Message Templates screenshot" class="_9v7q" src="./IMAGES/img1">
+      </div>
+
+      <!-- End of first Section-->
+
+    </section>
+
+    <!-- I add another section-->
+
+    <section id="lg2sm">
+      <h6>WhatsApp Business for any company size</h6>
+      <p>WhatsApp Business products <span>support businesses from large to small,</span> see which product best fits
+        your needs.</p>
+    </section>
+
+    <!-- Next i add another section containing two divs with class name of "support"-->
+
+    <section id="bizsupport">
+
+      <!-- The first div contains an icon from Font Awesome, an H3, a paragraph and an element with an icon from Font Awesome-->
+
+      <div class="support">
+        <i class="fa-solid fa-briefcase"></i>
+        <h3>Whatsapp Business Platform</h3>
+        <p>For medium to large businesses communicating with customers at scale through programmatic access</p>
+        <i id="arrow2" class="fa-solid fa-circle-arrow-right"><a href="#" class="arrowtext">Get Started</a></i>
+      </div>
+
+      <!-- I add the second div-->
+
+      <div class="support">
+        <i class="fa-solid fa-house-laptop"></i>
+        <h3>Whatsapp Business App</h3>
+        <p>For small businesses who personally manage conversations with customers</p>
+        <i id="arrow1" class="fa-solid fa-circle-arrow-right"><a href="#" class="arrowtext">Download App</a></i>
+      </div>
+
+      <!-- End of section-->
+
+    </section>
+
+    <!-- I add the third section with an ID of "Collapse" containing two divs-->
+
+    <section id="collapse">
+
+      <!-- The first div contains an Image element-->
+
+      <div id="dropdown" class="dropdown">
+        <img alt="Woman on the phone managing her business" class="_9v7q _a96d" src="./IMAGES/img2">
+      </div>
+
+      <!-- The second div contains an accordion element from Bootstrap-->
+
+      <div id="dropdown2" class="dropdown">
+
+        <!-- I edited the contents to fit in to my desired project-->
+
+        <h1>Why choose WhatsApp?</h2>
+          <div class="accordion accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  Meet customers where they already are?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  WhatsApp's business solutions give you the power to connect with customers through messaging.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Drive business outcomes
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Use conversations to deliver personal experiences that accelerate the buyer journey.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Build long lasting customer relationships
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Keep prospects and customers on the path to purchase and satisfied with your services with rich
+                  messaging experiences. Engage and retain your customers. </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- End of second div and end of section-->
+    </section>
+
+    <!-- I add the fouth section with an ID of "success-stories"-->
+
+    <section id="success-stories">
+
+      <!-- The section has three children; an H4 and H1 element and a Span element-->
+
+      <h4>Success Stories</h4>
+      <h1>From banking, e-commerce, and more, WhatsApp helps businesses drive results</h1>
+
+      <!-- The span contains one "Right arrow icon" as well as two spans containig direction icons all gotten from Font Awesome. These two span elements are only visible on smaller devices-->
+
+      <span>
+        <i id="arrow3" class="fa-solid fa-circle-arrow-right"><a href="#" class="arrowtext">Read success stories</a></i>
+        <span id="rewindbtn2" class="fa-solid fa-circle-arrow-left"></span>
+        <span id="forwardbtn2" class="fa-solid fa-circle-arrow-right"></span>
+      </span>
+      <!-- End of Section-->
+    </section>
+
+    <!-- I add the fifth section with ID of "Carousal" containing two divs-->
+
+    <section id="carousal">
+
+      <!-- The first div contains two span elements with direction icons that is only visible on extra large screen size-->
+
+      <div id="directionbtn">
+        <span id="rewindbtn" class="fa-solid fa-circle-arrow-left"></span>
+        <span id="forwardbtn" class="fa-solid fa-circle-arrow-right"></span>
+      </div>
+
+      <!-- The second div contains a Carousel element gotten from Bootstrap-->
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+
+        <!-- I edited the carousel contents to suit what i need-->
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Bank Mandiri</h1>
+            </div>
+            <img id="carimg1" src="./IMAGES/img3" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Modanisa</h1>
+            </div>
+            <img id="carimg2" src="./IMAGES/img4" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Omay Foods</h1>
+            </div>
+            <img id="carimg3" src="./IMAGES/img5" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Omay Foods</h1>
+            </div>
+            <img id="carimg4" src="./IMAGES/img6" class="d-block" alt="...">
+          </div>
+
+          <button id="prev" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- End of section-->
+
+    </section>
+
+    <!-- I added the last section with an ID of "learnmore" for the landing page-->
+
+    <section id="learnmore">
+      <div>
+        <h1>Take the next step</h1>
+        <p>Start transforming your customer experience on WhatsApp Business Platform.</p>
+        <button type="submit">Learn More</button>
+      </div>
+
+      <!-- End of section-->
+
+    </section>
+
+    <!-- End of Main element-->
+
+  </main>
+
+  <!-- Lastly, i added the footer element which consists of an image (brandlogo), a UL containing the footer links and a span element containing the copyright note-->
+
+  <footer>
+    <img id="footerlogo" src="./IMAGES/brandlogo2.svg">
+    <ul>
+      <li><a href="#">Trust & Safety</a></li>
+      <li><a href="#">Become a Partner</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Terms and Conditions</a></li>
+      <li><a href="#">Data Policy</a></li>
+    </ul>
+
+    <span>2023 © WhatsApp Business</span>
+
+    <!-- End of footer element-->
+
+  </footer>
+
+  <!-- Lastly, i add a script file from Font Awesome to make the icons visible on our page-->
+  <!-- Next, i add the script files from Bootstrap to connect our file to Bootstrap so the carousel and accordion can work in our project-->
+
+  <script src="https://kit.fontawesome.com/8cbb5859a7.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
