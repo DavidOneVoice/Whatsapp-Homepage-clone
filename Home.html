@@ -27,12 +27,12 @@
     <img src="./IMAGES/meta_logo-removebg-preview.png" id="metalogo">
   </div>
 
-  <!-- Next, i create the header-->
+  <!-- Next, i create the header with a nav bar-->
 
   <header>
     <nav>
 
-      <!-- Inside the header, i add the whatsapp logo-->
+      <!-- Inside the navbar, i add the whatsapp logo-->
 
       <img id="whatsapplogo" src="./IMAGES/brandlogo.svg">
 
@@ -52,6 +52,7 @@
       <!-- I add the 3rd child of the header/nav element which is a div containing a button and a toggle button which is only visible on smaller divices-->
 
       <div id="lastnavdiv">
+        <!-- I imported some icons from Font awesome -->
         <button id="fontawesome"><i id="globebtn" class="fa-solid fa-globe"></i>EN<i id="downbtn"
             class="fa-solid fa-chevron-down"></i></button>
         <i id="togglebtn" class="fa-solid fa-bars"></i>
@@ -64,11 +65,12 @@
   <!-- I add elements to the main element of the page-->
 
   <main>
+    <!-- First of all i add a section for the whatsapp advert which can be removed soon after September 20-->
     <section id="advert">
       <p>Join us virtually to usher in the era of the message-driven business — Sept 20 <a href="#">[Register now]</a>
       </p>
     </section>
-    <!-- I add the first section-->
+    <!-- I add the first main section-->
 
     <section id="productchoice">
 
@@ -197,7 +199,7 @@
       <h4>Success Stories</h4>
       <h1>From banking, e-commerce, and more, WhatsApp helps businesses drive results</h1>
 
-      <!-- The span contains one "Right arrow icon" as well as two spans containig direction icons all gotten from Font Awesome. These two span elements are only visible on smaller devices-->
+      <!-- The span contains one "Right arrow icon" as well as two spans containing direction icons all gotten from Font Awesome. These two span elements are only visible on smaller devices-->
 
       <span>
         <i id="arrow3" class="fa-solid fa-circle-arrow-right"><a href="#" class="arrowtext">Read success stories</a></i>
@@ -205,11 +207,11 @@
       <!-- End of Section-->
     </section>
 
-    <!-- I add the fifth section with ID of "Carousal" containing two divs-->
+    <!-- I add the fifth section with ID of "Carousal" containing four divs-->
 
     <section id="carousal">
 
-      <!-- The first div contains two span elements with direction icons that is only visible on extra large screen size-->
+      <!--Each div contains an image and an H1 element showing the name -->
 
       <div class="carouseldiv">
         <h1>Bank Mandiri</h1>
@@ -240,7 +242,7 @@
 
     </section>
 
-    <!-- I added the last section with an ID of "learnmore" for the landing page-->
+    <!-- I added the last section with an ID of "learnmore"-->
 
     <section id="learnmore">
       <div>
@@ -261,6 +263,7 @@
 
   <footer>
     <img id="footerlogo" src="./IMAGES/brandlogo2.svg">
+
     <ul>
       <li><a href="#">Trust & Safety</a></li>
       <li><a href="#">Become a Partner</a></li>
@@ -275,7 +278,7 @@
 
   </footer>
 
-  <!-- Lastly, i add a script file from Font Awesome to make the icons visible on our page-->
+  <!-- I add a script file from Font Awesome to make the icons visible on our page-->
   <!-- Next, i add the script files from Bootstrap to connect our file to Bootstrap so the carousel and accordion can work in our project-->
 
   <script src="https://kit.fontawesome.com/8cbb5859a7.js" crossorigin="anonymous"></script>

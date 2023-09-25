@@ -12,7 +12,6 @@ main {
     padding-left: 2em;
     padding-right: 2em;
     padding-top: 1em;
-    padding-top: 1em;
 }
 
 #prenav {
@@ -38,8 +37,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    padding: 2em;
-    padding-top: 4em;
+    padding: 4em 2em 2em 2em;
 }
 
 #whatsapplogo {
@@ -89,8 +87,7 @@ nav {
     padding-left: 2.5em;
     padding-right: 2.5em;
     margin-top: -2em;
-    transition: all;
-    transition-duration: 0.4s;
+    transition: all 0.4s;
 }
 
 #menu button:hover {
@@ -108,8 +105,7 @@ nav {
     margin-top: -1.5em;
     border: none;
     font-size: 1.2em;
-    transition: all;
-    transition-duration: 0.4s;
+    transition: all 0.4s;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -162,7 +158,6 @@ nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 5em;
 }
 
@@ -189,8 +184,7 @@ nav {
     border-radius: 30px;
     width: 15em;
     margin-top: 2em;
-    transition: all;
-    transition-duration: 0.4s;
+    transition: all 0.4s;
 }
 
 #biztransform button:hover {
@@ -218,7 +212,6 @@ nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     margin-top: 10em;
 }
 
@@ -258,12 +251,10 @@ nav {
     width: 40%;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     height: auto;
-    padding: 3em;
+    padding: 6em 3em 3em 3em;
     box-shadow: 0 0.1em 0.9em -0.4em black;
     border-radius: 10px;
-    padding-top: 6em;
 }
 
 .fa-solid {
@@ -283,6 +274,10 @@ nav {
     font-size: 1.1em;
 }
 
+#arrow1,
+#arrow2 {
+    font-size: 1em;
+}
 
 .arrowtext {
     color: black;
@@ -339,7 +334,6 @@ nav {
     font-size: 1.2em;
     opacity: 0.8;
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 1;
 }
 
 .accordion-body {
@@ -423,8 +417,8 @@ nav {
     border-radius: 20px;
     width: 80%;
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     height: 50vh;
 }
@@ -447,11 +441,9 @@ nav {
     font-size: 1.2em;
     height: 3.5em;
     border: #43dc66;
-    align-items: flex-start;
     border-radius: 40px;
     width: 16%;
-    transition: all;
-    transition-duration: 0.4s;
+    transition: all 0.4s;
 }
 
 #learnmore button:hover {
@@ -489,8 +481,7 @@ footer ul {
 footer a {
     text-decoration: none;
     color: black;
-    transition: all;
-    transition-duration: 0.4s;
+    transition: all 0.4s;
 }
 
 footer a:hover {
@@ -502,6 +493,8 @@ footer span {
 }
 
 /* Time to make the site responsive */
+
+/* First i adjust how the page looks on a device whose screen width is 1200px below */
 
 @media (max-width: 1200px) {
     #togglebtn {
@@ -685,7 +678,6 @@ footer span {
 
 
     #success-stories {
-        margin-bottom: 1em;
         margin-bottom: 4em;
         width: 80%;
     }
@@ -772,12 +764,15 @@ footer span {
     }
 }
 
+/* Next, i adjust how the LEARN MORE div looks on a device whose screen width is 800px below */
 @media (max-width: 800px) {
     #learnmore {
         margin-top: 15em;
     }
 
 }
+
+/* I add more adjustments for screen width below 750px*/
 
 @media (max-width: 750px) {
     #success-stories h1 {
@@ -806,6 +801,8 @@ footer span {
 
 }
 
+/* I add another adjustment to my Carousal div for screen sizes below 700px*/
+
 @media (max-width: 700px) {
     #carousal img {
         width: 400px;
@@ -817,7 +814,9 @@ footer span {
 
 }
 
-/* I add another styling instruction for screen sizes below 650px*/
+/* Ooops, getting tiring but that's how it works. It must be responsive on all screen sizes.*/
+
+/* Now, i'll add another styling instruction for screen sizes below 650px*/
 
 @media (max-width: 650px) {
     #advert {
@@ -971,6 +970,8 @@ footer span {
 
 }
 
+/* Getting close to goal, so i'll add a little adjustment for the Carousal div on screen sizes below 500px*/
+
 @media (max-width: 500px) {
     #carousal {
         padding-left: 0em;
@@ -1023,6 +1024,9 @@ footer span {
         margin-bottom: 5em;
     }
 }
+
+
+/* I add a styling instruction for screen sizes below 400px*/
 
 @media (max-width: 400px) {
     #productchoice2 img {
@@ -1133,6 +1137,12 @@ footer span {
         margin-bottom: -7em;
     }
 
+}
+
+/* I added extra styling instructions for extremely small screen sizes below 300px*/
+
+@media (max-width: 300px) {
+
     header {
         flex-direction: column;
     }
@@ -1140,11 +1150,7 @@ footer span {
     #whatsapplogo {
         margin-bottom: 2em;
     }
-}
 
-/* I added extra styling instructions for extremely small screen sizes below 300px*/
-
-@media (max-width: 300px) {
     #biztransform button {
         margin-top: -13em;
     }
@@ -1178,6 +1184,9 @@ footer span {
     }
 }
 
+
+/* Lastly, i'll add a styling instruction for screen sizes below 250px as well*/
+
 @media (max-width: 250px) {
 
     #biztransform h1 {
@@ -1190,27 +1199,25 @@ footer span {
         margin-left: -3em;
         width: 10em;
         margin-bottom: 13em;
+        padding-right: 0em;
     }
 
     #biztransform button {
-        width: 10em;
+        width: 12em;
+        align-self: center;
     }
 
     #productchoice2 img {
-        width: 12em;
+        width: 14em;
     }
 
     #lg2sm p {
-        margin-left: 0.5em;
+        align-self: center;
         font-size: 1.5em;
         width: 7.5em;
         padding: 0em;
     }
 
-    #arrow3 {
-        font-size: 2.5em;
-        width: 6em;
-    }
 
     .support h3 {
         font-size: 1.5em;
@@ -1218,10 +1225,51 @@ footer span {
 
     #learnmore div {
         height: 40em;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
     }
 
-    .carouseldiv {
-        width: 10em;
+    #productchoice,
+    #success-stories,
+    #carousal,
+    #bizsupport,
+    #lg2sm,
+    #collapse,
+    #advert,
+    header,
+    #learnmore {
+        width: 15em;
+    }
+
+    #learnmore p {
+        margin-top: 0em;
+        margin-bottom: 0em;
+    }
+
+    #success-stories {
+        padding-left: 6em;
+    }
+
+    #success-stories h1 {
+        width: 150%;
+    }
+
+    #success-stories h4 {
+        margin-bottom: 0em;
+    }
+
+    #collapse {
+        padding-left: 0.4em;
+    }
+
+    #collapse h1 {
+        font-size: 1.5em;
+        margin-left: 3em;
+    }
+
+    #success-stories span {
+        font-size: 0.4em;
+        width: 20em;
     }
 
     #carousal h1 {
@@ -1245,6 +1293,10 @@ footer span {
 
     #footerlogo {
         margin-left: -19em;
+    }
+
+    #carousal img {
+        width: 11.5em;
     }
 
 }
