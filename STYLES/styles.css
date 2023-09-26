@@ -433,6 +433,8 @@ nav {
     color: white;
     text-align: center;
     font-size: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #learnmore button {
@@ -1013,6 +1015,7 @@ footer span {
 
     footer {
         padding-left: 12em;
+        margin-top: 30em;
     }
 
     #biztransform h1 {
@@ -1022,6 +1025,10 @@ footer span {
     #biztransform p {
         margin-left: -2em;
         margin-bottom: 5em;
+    }
+
+    #learnmore div {
+        height: 30em;
     }
 }
 
@@ -1057,7 +1064,7 @@ footer span {
 @media (max-width: 350px) {
 
     #learnmore div {
-        height: 25em;
+        height: 30em;
     }
 
     #learnmore button {
@@ -1069,7 +1076,7 @@ footer span {
     }
 
     footer {
-        margin-top: -14em;
+        margin-top: -5em;
         padding-left: 15em;
     }
 
@@ -1156,11 +1163,11 @@ footer span {
     }
 
     #learnmore div {
-        height: 30em;
+        height: 35em;
     }
 
     footer {
-        margin-top: -8em;
+        margin-top: 0em;
     }
 
     #productchoice img {
@@ -1224,9 +1231,14 @@ footer span {
     }
 
     #learnmore div {
-        height: 40em;
+        height: 35em;
         padding-left: 0.2em;
         padding-right: 0.2em;
+    }
+
+    #learnmore div p {
+        margin-top: 3em;
+        margin-bottom: 3em;
     }
 
     #productchoice,
